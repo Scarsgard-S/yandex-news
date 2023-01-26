@@ -1,0 +1,100 @@
+/* Новостная статья со сменой темы и лайками */
+.dark-theme .news-nav {
+	color: white;
+}
+
+.theme-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.light-theme {
+	color: black;
+	background-image: none;
+	background-color: #f2f2f2;
+}
+
+.dark-theme {
+	color: #f2f2f2;
+	background-image: none;
+	background-color: #2b2b2b;
+}
+
+.dark-theme .news {
+	background-color: #808080;
+	
+}
+
+.light-theme .theme-button {
+	color: black;
+	background-color: #ffcf38;
+	border: 1px solid #6653d9;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.dark-theme .theme-button {
+	color: white;
+	background-color: #3868ff;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.news {
+	position: relative;
+	font-family:'Roboto', sans-serif;
+	width: 800px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news-header {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.news-content {
+	font-size: 17px;
+	line-height: 150%;
+}
+
+.marked-list {
+	margin-bottom: 10px;
+}
+
+.heart {
+	width: 45px;
+	height: 45px;
+	color: white;
+	position: 50% 50%;
+	background-image:url("img/heart.png");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-color: rgba(255, 255, 255, 1.0);
+	background-color: rgba(255, 255, 255, 0.0);
+}
+
+.added {
+	color: #E32636;
+}
+
+.news-stats time {
+	font-size: 16px;
+	color: grey;
+	position: absolute;
+	right: 50px;
+}
+
+.dark-theme .news-stats time {
+	color: #dddddd;
+}
+
+/* Добавить отдельные файлы стилей для разных блоков блога */
+/* Добавить код для будущего функционирования комментариев (без рабочего метода) */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>День из блога</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body class="page light-theme">
+        <header>
+            <nav>
+                <a class="news-nav" href="index.html">Вернуться ко всем записям</a>
+            </nav>
+            <button class="theme-button" type="button">Изменить тему</button>
+        </header>
+        <main>
+            <article class="news">
+                <h1 class="news-header">
+                    «Яндекс» научил нейросети расшифровывать архивные записи с дореволюционной орфографией 
+                </h1>
+                <!-- Добавить картинку -->
+                <img >
+
+                <p class="news-content">Сервис пригодится историкам, социологам, демографам и всем, кто ищет сведения о своей семье.</p>
+                <ul>
+                    <li class="news-content marked-list">Пользователи могут протестировать технологию в сервисе «Поиск по архивам» — это электронный каталог архивных документов и материалов от середины XVIII до начала XX века, в базе которого более 2,5 млн страниц документов. Об этом рассказала компания.</li>
+                    <li class="news-content marked-list">Пользователи могут искать записи через поиск или по каталогу, отфильтровав их по годам, архивам, фондам и описям. Например, в базе можно найти материалы с упоминанием определённой фамилии или населённого пункта.</li>
+                    <li class="news-content marked-list">Алгоритм построен на основе системы оптического распознавания символов, учитывает особенности почерка, узнаёт утратившие актуальность буквы и «понимает особую структуру архивных документов».</li>
+                    <li class="news-content marked-list">Нейросеть обучалась на массиве данных из сотен тысяч рукописных строк из реальных текстов XVIII-XIX веков и десятков миллионов сгенерированных примеров. Размечали и расшифровывали материалы, а затем контролировали качество распознавания эксперты.</li>
+                    <li class="news-content marked-list">Разработчики обучали нейросеть на материалах Главархива Москвы, сейчас в базе также есть архивы Оренбургской и Новгородской областей. Со временем количество хранилищ и доступных отсканированных файлов будет увеличиваться.</li>
+                    <!-- Добавить картинку -->
+                    <img>
+                    <!-- Добавить ссылки -->
+                </ul>
+                <div class="news-stats">
+                    <button class="heart" type="button">
+                        <span class="likes-number">76</span>
+                    </button>
+                    <time datetime="2023.01.25">
+                        25 Января 2023
+                    </time>
+                </div>
+
+                <!-- В будущем добавить систему комментариев, без бекенда комментарии не сделать. Пока что мне РАНО это изучать -->
+                <!-- <section class="comment-feed">
+                    <h2>Комментарии</h2>
+                    <ol class="comment-list">
+                        <li class="user-comment">Круто! А как нейросети Яндекса справятся с почерком врачей? Когда настанет этот великий момент светлого будущего? (-:</li>
+                     </ol>
+                    <form action="https://echo.htmlacademy.ru/courses" method="post" class="comment-form">
+                        <div class="comment-inner">
+                            <label class="comment-label" for="comment-input">ваш комментарий</label>
+                            <input type="text" class="comment-field" value="Азъ есмь царѣ" placeholder="Комментарий" required id="comment-input">
+                        </div>
+                        <button class="button" type="submit">Отправить</button>
+                    </form>
+                </section> -->
+
+            </article>
+        </main>
+        <footer>
+            <!-- Заполнить -->
+        </footer>
+        <script src="themes.js"></script>
+        <script src="likes.js"></script>
+    </body>
+</html>
